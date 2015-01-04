@@ -20,6 +20,7 @@
     <!--[if gt IE 8]><!-->
         <link rel="stylesheet" href="css/layouts/gallery.css">
     <!--<![endif]-->
+    <script src='https://js.tito.io/v1' async></script>
 </head>
 <body>
 <div>
@@ -43,7 +44,22 @@
           <p class="text-box-subhead">Daytime talks in the historic <a href="http://www.thefoxoakland.com/">Fox Theater</a>, Fun evenings all around Oakland, CA.</p>
           <p class="text-box-subhead"></p>
           <p class="text-box-subhead">Talks curated by <a href="http://mikealrogers.com/">Mikeal Rogers</a>, music directed by <a href="http://www.benmichel.com/">Ben Michel</a>.</p>
-          <p class="text-box-subhead">Early bird <a href="https://ti.to/nodeconf/2015">tickets available now!</a></p>
+          <style>
+          .tito-tickets-button {
+            padding: 5px 10px;
+            border-radius: 3px;
+            line-height: 1;
+            border: none;
+            background-color: #FFEB00;
+            font-weight:normal;
+            letter-spacing:0.1em;
+          }
+          .tito-tickets-button:hover {
+            background-color: #F7D600;
+            color: inherit;
+          }
+          </style>
+          <p class="text-box-subhead">Early Bird Tickets on Sale now! <tito-button event="nodeconf/2015">Register</tito-button></p>
 
         </div>
       </div>
