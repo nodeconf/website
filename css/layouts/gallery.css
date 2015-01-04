@@ -124,3 +124,12 @@ div.header a, div.header a:visited {
         height: 250px;
     }
 }
+
+@media (max-width: 480px) {
+  div#mainbox {
+    height:320px;
+  }
+  div#adventure-box {
+    height:300px;
+  }
+}
