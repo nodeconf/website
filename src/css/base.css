@@ -16,11 +16,8 @@
 @import 'basscss-utility-typography';
 @import 'basscss-utility-white-space';
 @import 'basscss-utility-responsive-states';
-@import 'basscss-positions';
 
 @import 'basscss-ui-utility-button-sizes';
-@import 'basscss-ui-utility-groups';
-@import 'basscss-ui-utility-disclosure-states';
 
 @import 'basscss-grid';
 
@@ -36,6 +33,7 @@
 
 @import './sections/events';
 @import './sections/speakers';
+@import './sections/sponsors';
 
 /* Custom media queries */
 @custom-media --breakpoint-sm (min-width: 40em);

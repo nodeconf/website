@@ -6,6 +6,15 @@ dl, ol, p, ul {
   font-size: 1rem;
 }
 
+a {
+  background-color: rgba(var(--blue), .1);
+}
+
+a:hover {
+  text-decoration: none;
+  background-color: rgba(var(--blue), .2);
+}
+
 @media (--breakpoint-sm) {
 
   dl, ol, p, ul {

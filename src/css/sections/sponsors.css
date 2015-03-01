@@ -1,0 +1,11 @@
+.sponsorships .md-col-6 {
+  padding: var(--space-2)
+}
+
+@media (--breakpoint-sm) {
+
+  .sponsorships .md-col-6 {
+    padding: var(--space-4)
+  }
+
+}
