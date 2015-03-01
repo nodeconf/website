@@ -1476,6 +1476,22 @@ h2 {
   text-transform: uppercase;
 }
 
+dl,
+ol,
+p,
+ul {
+  font-size: 1rem;
+}
+
+@media (min-width: 40em) {
+  dl,
+  ol,
+  p,
+  ul {
+    font-size: 1.25rem;
+  }
+}
+
 .event-nodeconf,
 .event-adventure {
   background-repeat: no-repeat;
@@ -1489,6 +1505,14 @@ h2 {
 
 .event-adventure {
   background-image: url('/img/venue-walker.png');
+}
+
+.speaker p {
+  font-size: 1rem;
+}
+
+.speaker img {
+  border-radius: 100%;
 }
 
 /* Custom media queries */

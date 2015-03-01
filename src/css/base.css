@@ -35,6 +35,7 @@
 @import './base/type';
 
 @import './sections/events';
+@import './sections/speakers';
 
 /* Custom media queries */
 @custom-media --breakpoint-sm (min-width: 40em);

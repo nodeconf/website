@@ -1,3 +1,15 @@
 h1, h2 {
   text-transform: uppercase;
 }
+
+dl, ol, p, ul {
+  font-size: 1rem;
+}
+
+@media (--breakpoint-sm) {
+
+  dl, ol, p, ul {
+    font-size: 1.25rem;
+  }
+
+}
