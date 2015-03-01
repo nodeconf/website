@@ -1,0 +1,14 @@
+.event-nodeconf,
+.event-adventure {
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  color: white;
+}
+
+.event-nodeconf {
+  background-image: url('/img/venue-fox.png');
+}
+
+.event-adventure {
+  background-image: url('/img/venue-walker.png');
+}
