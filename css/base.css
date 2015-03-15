@@ -1422,11 +1422,11 @@ a:hover {
 }
 
 .event-nodeconf {
-  background-image: url('/img/venue-fox.png');
+  background-image: url('img/venue-fox.png');
 }
 
 .event-adventure {
-  background-image: url('/img/venue-walker.png');
+  background-image: url('img/venue-walker.png');
 }
 
 .speaker p {
