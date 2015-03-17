@@ -790,7 +790,7 @@ body {
 }
 
 a {
-  color: #0076df;
+  color: #0076df ;
   text-decoration: none;
 }
 
@@ -800,7 +800,7 @@ a:hover {
 
 pre,
 code {
-  background-color: #ddd;
+  background-color: #ddd ;
   border-radius: 3px;
 }
 
@@ -813,7 +813,7 @@ hr {
 
 .button {
   color: white;
-  background-color: #0076df;
+  background-color: #0076df ;
   border-radius: 3px;
   transition-duration: .05s;
   transition-timing-function: ease-out;
@@ -1396,11 +1396,11 @@ ul {
   font-size: 1rem;
 }
 
-a {
+a:not(.sponsor, .logo) {
   background-color: rgba(0, 118, 223, .1);
 }
 
-a:hover {
+a:hover:not(.sponsor, .logo) {
   text-decoration: none;
   background-color: rgba(0, 118, 223, .2);
 }
@@ -1422,11 +1422,11 @@ a:hover {
 }
 
 .event-nodeconf {
-  background-image: url('../img/venue-fox.png');
+  background-image: url('/img/venue-fox.png');
 }
 
 .event-adventure {
-  background-image: url('../img/venue-walker.png');
+  background-image: url('/img/venue-walker.png');
 }
 
 .speaker p {
